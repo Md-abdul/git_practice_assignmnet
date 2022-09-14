@@ -1,8 +1,10 @@
-    let new_str = "";
-for(let i=str.length;i>=0;i++){
+let str= "amma";   
+
+ let new_str = "";
+for(let i=str.length;i>0;i--){
   new_str=new_str+str[i];
 }
-if(new_str==str ){
+if(new_str==str[i] ){
   console.log("true")
 }
 else{
